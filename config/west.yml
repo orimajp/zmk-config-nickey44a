@@ -44,8 +44,9 @@ manifest:
       revision: 57738cc4fc6ba80e82a7ac57741a0339cb186cd4
     - name: zmk-feature-default-layer
       remote: cormoran
-      # Required by CONFIG_ZMK_FAST_KEYMAP_DEFAULT_LAYER; tested revision.
-      revision: 92728246f80d327709839b2dbf5cf11880ff87e1
+      # Pinned head of codex/custom-rpc-rewrite, the branch with the Studio
+      # RPC that DYA Studio's connection tab uses (main has no Studio RPC).
+      revision: b25cb5b324da2d9bbc84e1877c775f5b2b7c6845
     - name: zmk-feature-os-detection
       remote: cormoran
       # Retained because Nickey44A explicitly exposes its Studio RPC settings;
